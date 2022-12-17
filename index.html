@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z plaza w tle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Goldman:wght@700&family=Great+Vibes&family=Gruppo&family=La+Belle+Aurore&family=M+PLUS+Rounded+1c:wght@300&family=Nunito:wght@200&family=Parisienne&family=Poppins:wght@100;200&family=Pragati+Narrow&family=Qwitcher+Grypen&family=Ruthie&family=Saira+Condensed:wght@300&family=Tangerine&family=Ultra&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+</head>
+<body>
+
+    <nav id="sidebar" onclick="toggleMenu()">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+        
+        <ul>
+            <li><a href="#home">badminton</a></li>
+            <li><a href="#about">Ranking</a></li>
+            
+            <li><a href="#chillout">trening</a></li>
+            <li><a href="http://127.0.0.1:5500/responsyne%20z%20%203%20bar%20menu/index.html">Animacje</a></li>
+            <li><a href="#gridideo">video-galeria</a></li>
+            <li><a href="http://127.0.0.1:5500/Navi/wgSekcji/5.html#news">News</a></li>
+            <li><a href="#alekino">3d</a></li>
+        </ul>
+    </nav>
+    
+    <div class="grid_container" id="kont">
+
+        <div class="aa">
+            <h1>Temat tygodnia</h1>
+            <p class="techniki">super lernen CSS JS HTML  
+                <a  class="medial" href="http://mediaevent.de " target=" _blank">www.mediaevent</a></p>
+            
+        </div>
+        <div  id="tim" class="b">
+            <h2 class="t">Frankreich vs Argentinien</h2>
+            <p id="demo"></p>
+        </div>
+        <div  id="small
+        -img" class="b">
+            <h3>Axelsen vs Loh K.Y.</h3>
+            <img src="play.png" class="play_btn" onclick="playVideo('ax3.mp4')">
+        </div>
+        <div  id="pojemnik-na-artykul" class="a"> <br>  <br>
+        <h2>GESCHICHTE </h2>
+        <article class="artykul">
+             Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more"> Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+            In Europa zur Zeit des Barock entwickelte sich ein unter dem Namen Battledore and Shuttlecock oder Jeu de Volant bekanntes Federballspiel zu einer der beliebtesten Freizeitbeschäftigungen des höfischen Adels. Ziel bei dieser Variante des Federballspiels war es, dass zwei Spieler sich mit einfachen Schlägern einen Federball so oft wie möglich zuspielen, ohne dass dieser den Boden berührt. Ein urkundlich erwähnter Rekord aus dem Jahre 1830 beläuft sich auf 2117 Schläge für einen Ballwechsel zwischen Mitgliedern der Somerset-Familie.
+
+            Das heutige Spiel verdankt seinen Namen dem englischen Landsitz des Duke of Beaufort aus der Grafschaft Gloucestershire. Auf diesem Landsitz mit dem Namen Badminton House wurde 1872 das von dem britischen Kolonialoffizier aus Indien mitgebrachte und als Poona bezeichnete Spiel vorgestellt. 1893 wurde in England der erste Badmintonverband gegründet, und schon 1899 fanden die ersten All England Championships statt, die heutzutage unter Badmintonanhängern den gleichen Stellenwert haben wie das Turnier von Wimbledon für die Tennisfreunde.
+            
+            Der neue Sport erfreute sich großer Beliebtheit. Schwierigkeiten bereitete es nur, geeignete Sportstätten zu finden. Es musste oft an ungewöhnlichen Orten gespielt werden, denn die einzigen uneingeschränkt geeigneten Räumlichkeiten zu dieser Zeit waren Kirchen. Das hohe Mittelschiff einer Kirche bot dem Federball freie Flugbahn, und die Kirchenbänke dienten den Zuschauern als Logenplätze. Mitte der 1920er Jahre breitete sich der organisierte Badmintonsport vermehrt auch in Nordeuropa, Frankreich, Australien und Nordamerika aus, so dass bereits im Juli 1934 die International Badminton Federation (IBF), der Welt-Dachverband (heute BWF), gegründet werden konnte.</article>
+        </div>
+        <div class="b">e</div>
+        <div class="a">
+
+            
+               <div class="music" id="music">
+                    <img src="titel.jpg">
+                    <div class="info">
+                        <h1>Jay Aliyev</h1>
+                        <span>
+                            More & Now 
+                        </span>
+                        <div id="waveform"></div>
+                        <div class="controls">
+                            <img src="play.png" id="playBtn">
+                            <img src="close.png" id="closeBtn">
+                            <img src="volume.png" id="volumeBtn">
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="b">g</div>
+        <div class="b">h</div>
+        <div class="a">
+            <div class="callofduty">
+                <h2></h2>
+                <img src="call.png" width="100%" >
+            </div>
+
+        </div>
+        <div class="b">j</div>
+        <div class="a">k</div>
+        <div class="a">l</div>
+        
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls muted autoplay id="myVideo">
+            <source src="ax3.mp4" type="video/mp4">
+        </video>
+        <img src="close.png" class="close-btn" id="close-btn"      onclick="stopVideo()">
+
+    </div>
+    
+
+    <script >
+        var playBtn = document.getElementById('playBtn');
+        var closeBtn = document.getElementById('closeBtn');
+        var volumeBtn = document.getElementById('volumeBtn');
+        
+        var videoPlayer = document.getElementById('videoPlayer');
+        var videoPlayer = document.getElementById('myVideo');
+        var closeButton = document.getElementById('close-btn');
+        var gridContainer = document.getElementById('kont')
+
+        function stopVideo(){
+            videoPlayer.style.display = 'none';
+            closeButton.style.display = 'none';
+            gridContainer.style.opacity = '1';
+            
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display ='block';
+            closeButton.style.display = 'block';
+            gridContainer.style.opacity = '0';
+        }
+        
+        function toggleMenu(){
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+
+
+
+
+        
+
+  
+  // Set the date we're counting down to
+  var countDownDate = new Date("Dec 18, 2022 16:00:01").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+    // Get today's date and time
+    var now = new Date().getTime();
+      
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    
+      
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d : " + hours + "h : "
+    + minutes + "m : " + seconds + "s ";
+      
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "twoj typ na wynik meczu ?";
+      
+    }
+    if(seconds<10){
+        document.getElementById("demo").innerHTML = days + " : " + hours + " : "
+    + minutes + "  : " +'0'+ seconds + "s "; 
+    }
+  }, 1000);
+
+
+
+  var wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    waveColor: '#nnn',
+    progressColor: '#fff',
+    barwidth: 4,
+    height: 90,
+    responsive: true,
+    hideScrollbar: true,
+
+
+});
+
+wavesurfer.load('favoritecolors.mp3');
+
+playBtn.onclick = function(){
+    wavesurfer.playPause();
+    if(playBtn.src.includes('play.png')){
+        playBtn.src='pause.png';
+    }else{
+        playBtn.src='play.png';
+    }
+}
+closeBtn.onclick = function(){
+    wavesurfer.stop();
+}
+volumeBtn.onclick = function(){
+    wavesurfer.toggleMute();
+}
+
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+  
+    </script>
+</body>
+</html>
