@@ -10,7 +10,8 @@ body{
     align-items: center;
     min-height: 100vh;
     /*background: #161623;*/
-    background-image: linear-gradient(45deg, rgb(9, 9, 104) 40%,white 10%, white 10%, rgb(6, 6, 31));
+    /*background-image: linear-gradient(45deg, #090968 40%,white 10%, white 10%, rgb(6, 6, 31));*/
+    background: #624f72;
     background-size: cover;
     color: #ffffff;
     font-family: 'nunito';
@@ -86,5 +87,7 @@ img{
     }
     form{
         width: 90%;
+        
     }
+    
 }
